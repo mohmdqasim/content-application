@@ -55,4 +55,3 @@ with st.sidebar:
     html(sidebar_button("Humanize Content", "bubble_chart", key="humanize"))
 
 pages[data]()
-
