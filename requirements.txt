@@ -1,1 +1,2 @@
 streamlit_navigation_bar
+streamlit-bridge
