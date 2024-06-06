@@ -3,7 +3,7 @@ import requests
 import json
 
 def humanize_page():
-    def humanize(text: str):
+    def humanize_content(text: str):
         url = "https://aitohumanconverter.com/v2/process.php"
         data = {'text': text}
         response = requests.post(url, data=data)
@@ -25,6 +25,6 @@ def humanize_page():
     st.header("Output")
     if humanize:
         if input_content:
-            st.markdown(humanize(input_content))
+            st.markdown(humanize_content(input_content))
         else:
             st.info("Please add content")
