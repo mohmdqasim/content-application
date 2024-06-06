@@ -51,4 +51,5 @@ with st.sidebar:
     html(sidebar_button("Dashboard", "home", key="intro"))
     html(sidebar_button("Humanize Content", "bubble_chart", key="humanize"))
 st.write(data)
-pages[data]()
+if data:
+    pages[data]()
