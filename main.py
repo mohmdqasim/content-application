@@ -28,7 +28,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 data = bridge("my-bridge", default="humanize")
-
+prev_data = data
 # Define the sidebar button function
 def sidebar_button(text, icon, key):
     button_html = f"""
@@ -50,6 +50,5 @@ pages = {
 with st.sidebar:
     html(sidebar_button("Dashboard", "home", key="intro"))
     html(sidebar_button("Humanize Content", "bubble_chart", key="humanize"))
-st.write(data)
-if data:
+if not prev_data is data:
     pages[data]()
