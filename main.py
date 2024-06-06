@@ -30,7 +30,7 @@ st.markdown("""
 # Initialize the session state for button click tracking
 if 'button_clicked' not in st.session_state:
     st.session_state['button_clicked'] = None
-data = bridge("my-bridge", default="intro")
+data = bridge("my-bridge", default="humanize")
 
 # Define the sidebar button function
 def sidebar_button(text, icon, key):
