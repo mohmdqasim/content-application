@@ -32,12 +32,12 @@ prev_data = data
 # Define the sidebar button function
 def sidebar_button(text, icon, key):
     button_html = f"""
-        <div class="sidebar-button" onClick="stBridges.send('my-bridge', '{key}')")">
+        <button class="sidebar-button" onClick="stBridges.send('my-bridge', '{key}')")">
             <div style="margin-right: 10px;">
                 <i class="material-icons">{icon}</i>
             </div>
             {text}
-        </div>
+        </button>
     """
     return button_html
 
