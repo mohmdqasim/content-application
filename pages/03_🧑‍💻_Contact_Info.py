@@ -1,5 +1,7 @@
 import streamlit as st
 import base64
+
+
 def home():
     
     # Page configs (tab title, favicon)
