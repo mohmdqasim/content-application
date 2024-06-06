@@ -50,5 +50,5 @@ pages = {
 with st.sidebar:
     html(sidebar_button("Dashboard", "home", key="intro"))
     html(sidebar_button("Humanize Content", "bubble_chart", key="humanize"))
-if not prev_data is data:
-    pages[data]()
+
+pages[data]()
