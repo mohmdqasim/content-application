@@ -11,14 +11,13 @@ pages = {
     "Wikipedia": wiki
 }
 
-
-selected = option_menu(
-    menu_title = "Content Writers",
-    options = list(pages.keys()),
-    icons = ["house", "person-arms-up", "book"],
-    menu_icon = "robot",
-    default_index = 0,
-    orientation = "horizontal",
-)
+with st.sidebar:
+    selected = option_menu(
+        menu_title = "Content Writers",
+        options = list(pages.keys()),
+        icons = ["house", "person-arms-up", "book"],
+        menu_icon = "robot",
+        default_index = 0
+    )
 
 pages[selected]()
