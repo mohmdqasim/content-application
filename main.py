@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from pages.Contact_info import home
+# from pages.Contact_info import home
 # import page.Humanizer as Humanizer
 
 from .Contact_info import home
@@ -18,7 +18,7 @@ if selected == "Humanize":
     st.write(selected)
     # Humanizer()
 elif selected == "Contact Info":
-    home()
+    st.write(selected)
 elif selected == "Wikipedia":
     st.write(selected)
     # wiki()
