@@ -7,3 +7,4 @@ langchain-google-community==1.0.3
 langchain-openai==0.1.6
 langchain-text-splitters==0.0.1
 langsmith==0.1.57
+streamlit-option-menu
