@@ -79,7 +79,6 @@ def home():
     - 🏠 Pakistan
     """)
 
-    st.write("##")
 
     # Download CV button
     # st.download_button(
