@@ -21,4 +21,4 @@ with st.sidebar:
         orientation = "horizontal",
     )
 
-pages[selecteasd
+pages[selected]()
