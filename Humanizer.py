@@ -3,11 +3,6 @@ import requests
 import json
 
 def humanizer():
-    st.set_page_config(
-        page_title = "Humanizer",
-        page_icon = "🎇"
-    )
-
     def humanize_content(text: str):
         url = "https://aitohumanconverter.com/v2/process.php"
         data = {'text': text}
