@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 
 
-def home():
+def contact():
     # Page configs (tab title, favicon)
     st.set_page_config(
         page_title="Contact Info",
