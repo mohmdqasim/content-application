@@ -3,11 +3,6 @@ import base64
 
 
 def contact():
-    # Page configs (tab title, favicon)
-    st.set_page_config(
-        page_title="Contact Info",
-        page_icon="🍕",
-    )
     # CSS styles file
     with open("styles/main.css") as f:
         st.write(f"<style>{f.read()}</style>", unsafe_allow_html=True)
