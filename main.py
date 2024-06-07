@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 # from pages.Contact_info import home
 # import page.Humanizer as Humanizer
 
-from .Contact_info import home
+# from .Contact_info import home
 # import page.Wikipedia as wiki
 with st.sidebar:
     selected = option_menu(
