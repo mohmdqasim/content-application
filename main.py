@@ -1,7 +1,6 @@
 import streamlit as st
-import sys
-sys.path.append('/pages/')
 from streamlit_option_menu import option_menu
+from pages.Contact_info import home
 # import page.Humanizer as Humanizer
 
 from .Contact_info import home
